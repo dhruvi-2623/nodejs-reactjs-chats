@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  @apply bg-base-100 text-base-content transition-colors duration-300;
+}
